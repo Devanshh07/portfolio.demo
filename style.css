@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "General Sans";
+    scroll-behavior: smooth;
+    scrollbar-shadow-color: rgb(0, 0, 0);
+}
+html , body {
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 100%;
+    z-index: 99999;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+.minicircle{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+.home{
+    width: 100%;
+    
+    background-color: black;
+    color: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+.nav h3{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 15px;
+
+}
+.nav h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.hero{
+    position: relative;
+    margin-top: 70px;
+    margin-left: 40px;
+    
+}
+.hero h1{
+    font-family: "General Sans medium";
+    font-weight: 800;
+    line-height: 0.9;
+    font-size: 9.5vw;
+    letter-spacing: 10px;
+    opacity: 60%;
+}
+#sech1{
+    margin-left: 150px;
+}
+h6{
+    margin-left: 725px;
+    letter-spacing: 2px;
+    line-height: 1;
+    font-weight: 500;
+}
+.freelance{
+    text-align: right;
+    margin-top: 130px;
+     line-height: 3;
+    font-weight: 500;
+    opacity: 90%;
+    margin-right: 40px;
+    font-size: 18px;
+    letter-spacing: 1.1px;
+   
+}
+.work{
+    width: 100%;
+    margin-top: 50px;
+    height: 100px;
+    background-color: black;
+}
+.work a{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+    font-size: medium;
+}
+.circle{
+    padding-bottom: 20px;
+    font-size: x-large;
+     padding-right: 10px;
+     display: flex;
+     justify-content: flex-end;
+     text-align: end;
+
+}
+.circle #f{
+    padding-left: 10px;
+    font-size: x-large;
+    margin-bottom: 20px;
+    
+}
+.second{
+    color: white; 
+       padding-right: 8vw;
+    padding-left:3vw ;
+    height: 110vh;
+    width: 100%;
+    background-color: #000;
+}
+.element{
+    width: 100%;
+    border-top : 1px solid rgb(200, 200, 200);
+    margin-top: 20px;
+    align-items: center;
+}
+#plg{
+    margin: 50px 10px;
+    letter-spacing: 7px ;
+    font-size: 85px;
+    font-weight: 900;
+    opacity: 70%;
+}
+
+#plg2{
+    margin: 50px 10px;
+    letter-spacing: 7px ;
+    font-size: 85px;
+    font-weight: 900;
+    opacity: 70%;
+}
+#plg3{
+    margin: 50px 10px;
+    letter-spacing: 7px ;
+    font-size: 85px;
+    font-weight: 900;
+    opacity: 70%;
+
+}
+.element img{
+    z-index: 999;
+    height: 250px;
+    position: absolute;
+    z-index: 999;
+    opacity: 0;
+
+}
+.border{
+    background-color: #000;
+    border: 1px solid rgb(172, 170, 170);
+}
+.about{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 10vw 5vw;
+    padding-left: 20vw;
+   
+}
+.about img{
+    margin: 20px 60px 0px;
+    height: 40vh;
+    width: 20vw;
+   
+}
+.ab{
+ display: flex;
+ justify-content: space-between;
+}
+.para{
+    padding-right: 60px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.about h3{
+    margin-bottom: 40px;
+}
+.last{
+    margin-top: 20px 40px;
+    padding-left: 40px;
+}
+#forgot{
+    opacity: 70%;
+    margin-bottom: 10px;
+}
+.last a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    opacity: 95%;
+}
+.last a:hover{
+    opacity: 100%;
+
+}
+.footer{
+    margin: 40px 0px;
+    padding-left:40px ;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin-top: 100px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    opacity: 80%;
+    
+
+}
+.footer a:hover{
+    opacity: 100%;
+}
+.footer #ek{
+    padding-left: 700px;
+}
